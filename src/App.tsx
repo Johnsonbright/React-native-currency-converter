@@ -21,7 +21,7 @@ const buttonPressed =(targetValue: Currency) => {
     return Snackbar.show({
       text:" Enter a value to convert",
       // duration: Snackbar.LENGTH_SHORT,
-      backgroundColor: '#EA7BB3',
+      backgroundColor: '#EB7B87',
       textColor: '#000000'
     })
   }
@@ -29,7 +29,7 @@ const buttonPressed =(targetValue: Currency) => {
   const inputAmount = parseFloat(inputValue)
   if (!isNaN(inputAmount)) {
     const convertedValue = inputAmount * targetValue.value
-    const result = `${targetValue.symbol} ${convertedValue.toFixed(2)}🤑`
+    const result = `${targetValue.symbol} ${convertedValue.toFixed(2)} 🤑`
     setResultValue(result)
     setTargetCurrency(targetValue.name)
   }
@@ -56,7 +56,7 @@ const buttonPressed =(targetValue: Currency) => {
     clearButtonMode='always' //Only for ios
     onChangeText={setInputValue}
     keyboardType='number-pad'
-   placeholder='Enter'
+   placeholder='Enter Number'
     />
   </View>
 {resultValue && (

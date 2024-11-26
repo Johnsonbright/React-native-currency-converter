@@ -24,6 +24,12 @@ export const currencyByRupee: Currency[] = [
     symbol: '₽',
   },
   {
+    name: 'NIGERIA',
+    value: 1750,
+    flag: '🇳🇬',
+    symbol: '₦',
+  },
+  {
     name: 'AUS DOLLAR',
     value: 0.01732574,
     flag: '🇦🇺',
