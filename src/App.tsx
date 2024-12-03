@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   },
   inputAmountField: {
     height: 40,
-    width: 200,
+    width: 210,
     padding: 8,
     borderWidth: 1,
     borderRadius: 4,
