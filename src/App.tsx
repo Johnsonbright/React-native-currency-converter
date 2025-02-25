@@ -56,7 +56,7 @@ const buttonPressed =(targetValue: Currency) => {
     clearButtonMode='always' //Only for ios
     onChangeText={setInputValue}
     keyboardType='number-pad'
-   placeholder='Enter Number'
+   placeholder='Enter Number Here'
     />
   </View>
 {resultValue && (
