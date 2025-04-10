@@ -19,7 +19,7 @@ const[targetCurrency, setTargetCurrency] = useState('')
 const buttonPressed =(targetValue: Currency) => {
   if(!inputValue) {
     return Snackbar.show({
-      text:" Enter a value you want to convert",
+      text:" Enter a value you want to convert here",
       // duration: Snackbar.LENGTH_SHORT,
       backgroundColor: '#EB7B87',
       textColor: '#000000'
